@@ -23,9 +23,7 @@ Use link: http://127.0.0.1:5000 when accessing from a third party method
 
 ## Endpoints 
 
-```
-/api/vocab
-```
+#### /api/vocab
 
 Accepts a GET request. Returns all vocab words in the database
 
@@ -66,9 +64,7 @@ Response
 
 ```
 
-```
-/api/prediction
-```
+#### /api/prediction
 
 Accepts a POST request. Will make a prediction if post_text is sponsored or non-sponsored based on vocab words in database and returns prediction.
 
